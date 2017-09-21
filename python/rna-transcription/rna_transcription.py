@@ -4,8 +4,6 @@ def to_rna(dna):
 		for x in list(dictdna):
 			if  i == x:
 				rna += dictdna[i]
-			else:
-				rna += ''
 	if len(rna) != len(dna):
 		return ''
 	return rna.upper()
