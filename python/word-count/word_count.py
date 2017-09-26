@@ -6,5 +6,3 @@ def word_count(word):
 	regex = re.sub('\W',' ',word.lower())
 	return Counter(regex.split())
 
-
-print(word_count('go Go GO Stop stop'))
