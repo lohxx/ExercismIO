@@ -1,0 +1,7 @@
+{
+  "bob_test.py::BobTests::test_asking_gibberish": true,
+  "bob_test.py::BobTests::test_forceful_question": true,
+  "bob_test.py::BobTests::test_multiple_line_question": true,
+  "bob_test.py::BobTests::test_statement_containing_question_mark": true,
+  "bob_test.py::BobTests::test_talking_forcefully": true
+}
