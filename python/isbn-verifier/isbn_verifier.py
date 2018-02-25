@@ -16,7 +16,7 @@ def verify(isbn):
     	total +=  digits[index] * int(item) if item != 'X' else digits[index] * 10
     return True if total % 11 == 0 else False
 
-print(verify('3-598-21507-A'))
+
 
 
 
