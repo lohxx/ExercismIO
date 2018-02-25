@@ -5,7 +5,7 @@ import string
 def Validations(text):
 	alpha  = string.ascii_uppercase.replace('X','')
 	letter = re.findall(r'[a-zA-Z]',text)[0] if len(re.findall(r'[a-zA-Z]',text)) >= 1 else ''
-	if text == '' or text.count('X') > 1 or letter in list(alpha) or ('X' == letter and 'X' != text[len(text)-1]):
+	if text == '' or text.count('X') > 1 or letter in list(alpha) or ('X' == letter and 'X' != text[-1]):
 		return False
 
 def verify(isbn):
