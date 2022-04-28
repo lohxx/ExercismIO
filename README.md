@@ -1,4 +1,4 @@
-# Exercism-Algorithms
+# Exercism.IO
 
 Challenges of website exercises for beginners to become accustomed to a new language or to simply practice some algorithm   exercises.
 
